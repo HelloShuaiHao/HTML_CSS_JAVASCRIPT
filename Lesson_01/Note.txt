@@ -1,0 +1,26 @@
+1. Lesson
+
+1.1 First Practice Examples
+
+Example 1:
+I observe that the text inside the two pair of brackets won't wrap, even if I type enter.
+To make sentence wrap, I have to use another pair of tags.
+
+Example 2: 
+I found that the text inside the pairs <b></b> will be bold.
+Correspondingly text inside <i></i>, <u></u> will be italicized and underscored.
+This means some first letters of some words are used as certain command.
+
+Example 2:
+I observe that the sentence inside the pair of brackets has changed its color to blue and is underscored.
+
+Example 3:
+We can declare the color in tag.
+
+Example 4:
+The color of the enclosed words changed.
+
+
+1.2 Assignment
+Done
+

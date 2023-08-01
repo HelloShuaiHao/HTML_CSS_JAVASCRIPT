@@ -1,0 +1,141 @@
+<!--FILDLIST tag可以把物体框住-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Travel Transport</title>
+		<link rel="stylesheet" type="text/css" href="css/backgroundSet.css">
+	</head>
+	
+	<body>
+		<div id="main">
+			<div id="header">
+                <!--Navigation information bar-->
+				<div id="navigation" align="center">
+					<nav>
+						<fieldset>
+							<legend>Menu</legend>
+							<a>📖 Reservation</a>
+							<a href="<#url#>">✈️ Flight</a>
+							<a href="<#url#>">🗺️ Itinerary</a>
+							<a href="<#url#>">🔍 Search</a>
+						</fieldset>
+					</nav>
+				</div>
+			</div>
+			
+			
+            <!--It show the Logo information-->
+			<div id="LogoArea">
+			
+				<div id="logo">
+					<img src="img/banner.jpg" alt="Logo" align="right"  width="400">
+				</div>
+				
+				<br> <br><br><br>
+				<H1>Travelling,</H1> <H2 style="color: gray;">the best way to meet yourself.</H2>
+				<br><br><br><br><br>
+				<p style="text-align: right; font-size: larger;">Need travelling help? <br> <a href="e1221805@u.nus.edu" target="_blank">Click here to contact us!</a></p>
+
+			</div>
+			
+			
+			
+			
+            <!--	It shows the destination information	-->
+			<div id="destinationBoard">
+				<div id="destination">
+					<img src="img/china.jpg" alt="china" width="180" height="180px">
+				</div>
+				<div id="destination">
+					<img src="img/singapore.jpg" alt="singapore" width="180px" height="180px"><br>
+				</div>
+				<div id="destination">
+					<img src="img/usa.jpg" alt="usa" height="180px" weight=180px><br>
+				</div>
+				<div id="destination">
+					<img src="img/switzerland.jpg" alt="switzedland" width="200px"height="200px"><br>
+				</div>
+			</div>
+			
+			<br><br>
+			
+			<div id="main_form">
+				<form action="mailto:e1221805@u.nus.edu" method="post">
+					<fieldset>
+						
+						<legend>Reservation</legend>
+
+						<div class="form-control">
+							<label for="name">Name</label>
+							<input type="text" name="name" placeholder="Enter your name"><br>
+						</div>
+						
+						<div class="form-control">
+							<label for="phone">Phone</label>
+							<input type="tel" name="phone" placeholder="Enter your phone"><br>
+						</div>
+						
+						<div class="form-control">
+							<label for="email">Email</label>
+							<input type="email" name="email" placeholder="Enter your email"><br>
+						</div>
+						
+						<div class="form-control">
+							<label for="nationality">Nationality</label>
+							<select name="nationality">
+								<option value="CHINA">CHINA</option>
+								<option value="SINGAPORE">SINGAPORE</option>
+								<option value="USA">USA</option>
+								<option value="SWITZERLAND">SWITZERLAND</option>
+							</select>
+						</div>
+						
+						<div class="form-control">
+							<label for="status">Residence Status</label>
+							<input type="radio" name="status" value="citizen">  Citizen 
+							<input type="radio" name="status" value="PR">PR  
+							<input type="radio" name="status" value="Foreigner">Foreigner<br>
+						</div>
+						
+						<div class="form-control">
+							<label for="disease">Do you have any of the following disease?:<br></label>
+							<input type="checkbox" name="disease" value="AIDS">AIDS<br>
+							<input type="checkbox" name="disease" value="heart disease">heart disease<br>
+							<input type="checkbox" name="disease" value="corona virus">corona virus<br>
+						</div>
+						
+						<div class="form-control">
+							<label for="destination">Where do you wanna go</label>
+							<select name="destination">
+								<option value="CHINA" selected="selected">CHINA</option>
+								<option value="SINGAPORE">SINGAPORE</option>
+								<option value="USA">USA</option>
+								<option value="SWITZERLAND">SWITZERLAND</option>
+							</select>
+						</div>
+						
+						<div class="form-control">
+							<label for="OneWayOrRound">One way or round trip?</label>
+							<input type="radio" name="OneWayOrRound" selected="selected" value="oneWay" >One way  
+							<input type="radio" name="OneWayOrRound" value="roundTrip">round Trip<br>
+						</div>
+						
+						<div class="form-control">
+							<label for="date">Please select your departure time!</label>
+							<input type="date" name="date" style="font-weight: bold;">
+						</div>
+						<input type="submit" value="Book now!">
+					</fieldset>
+				</form>
+			</div>
+			
+			<div id="footer" align="center">
+				<br>
+				<footer>©️ 2023 SHUAI HAO</footer>
+				<br>
+			</div>
+		</div>
+	</body>
+</html>

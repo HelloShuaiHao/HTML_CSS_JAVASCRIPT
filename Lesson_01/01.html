@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	
+	<body>
+		
+		<h1>This a Heading</h1>
+		
+		<p>This is a paragraph</p>		
+		
+		<p>One of the greats in sports <b>Roger Feder</b> who is a world class <i>tennis player</i> and hails from <u>Switzerland</u> and has won several grand slam titles.</p>
+		
+		<p style="color:blue"> This paragraph <!-- this is a comment --> will be displayed in blue.</p>
+		
+		<!-- Line break -->
+		<p>This sentence will<br> be wraped</p>
+	
+		<!-- link target的作用是防止离开本网页-->
+		<a href="http://www.google.com" target="_blank">This is a link</a>
+		
+		<p>The colour of <span style="color:blue">sky</span> is blue.</p>
+		
+		
+		<!-- image uploading and size changing -->
+		<img src="greenery.jpg" alt="Scenery" width="800" height="400">
+		
+		
+		<!-- I am gonna to change the font -->
+		<p style="font-family: fantasy;">The font has been change to fantasy</p>
+		
+		
+		<!-- alignment -->
+		<p style="text-align: center;">The alignment has been set to center</p>
+		
+		
+		
+		
+		
+		
+		<!-- List  无序列表和有序列表-->
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+		</ul>
+		<ol>
+			<li>Item</li>
+			<li>Stuff</li>
+		</ol>
+	
+	
+	
+	
+	
+	
+	
+		
+		<!-- 表格  cellspacing is the pixel width between the individual data cells; cellpadding is the pixel width between the cell contents and the cell border-->
+		<table border="5" cellspacing="1" cellpadding="3" width="30%">
+			
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td> Shuai Hao </td>
+					<td> 23 </td>
+				</tr>
+				<tr>
+					<td> Parents </td>
+					<td> 50 </td>
+				</tr>
+				<tr style="height: 50px;">
+					<td width="25%">
+						Left Menu
+					</td>
+					<td>
+						Content
+					</td>
+				</tr>
+				<tr height="30px">
+					<!--	The colspan attribute is used to ensure the Footer raw cells will span the two columns-->
+					<td colspan="2">
+						Footer Section
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<br><br>
+		
+		<table border="1" width="400" cellspacing="1">
+			<tbody>
+				<tr height="50" >
+					<td colspan="2" align="center">
+						Header Section
+					</td>
+				</tr>
+				<tr height="150">
+					<td width="30%">
+						Left Menu
+					</td>
+					<td>
+						Main Content
+					</td>
+				</tr>
+				
+			</tbody>
+		</table>
+		
+		
+		<br><br><br>
+		
+		
+		
+		
+		<!-- Usage of rowspan-->
+		<table border="1">
+			<tr>
+				<th>Month</th>
+				<th>Savings</th>
+				<th>Savings for holiday!</th>
+			</tr>
+			<tr>
+				<td>January</td>
+				<td>$100</td>
+				<td rowspan="2">$50</td>
+			</tr>
+			<tr>
+				<td>February</td>
+				<td>$80</td>
+			</tr>
+		</table>
+		
+		<br><br>
+		
+		
+		<!-- Form 表单 和表格不一样，表单需要填内容，div是division的意思,attribute name是用来和后端交互的-->
+		<form>
+			<div>
+				<label>Name</label>
+				<input type="text" name="Client's name" placeholder="enter you name here">
+			</div>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email" placeholder="Enter your email">
+			</div>
+			<input type="submit" name="submit" value="submit">
+		</form>
+		
+		
+		
+		
+		<!-- Add a horizontal line-->
+		<hr/>
+		
+		
+		<!--reference-->
+		<p>1960s.<sup>[2]</sup></p>
+		
+		
+	</body>
+</html>

@@ -1,0 +1,15 @@
+body {
+	font-family: fantasy;
+	color: black;
+}
+
+h2 {
+	color: brown;
+	font-family: verdana;
+	font-style: italic;
+}
+
+.splText{
+	color: blue;
+	font-style: bold;
+}

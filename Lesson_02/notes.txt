@@ -1,0 +1,12 @@
+Note
+
+1. To achieve the effect of text surrounding picture, we need to adopt <div>, which can group similar elements together. 
+<div style="width= ">
+	<img src="keyboard.jpg" alt="keyboard" align="right" width="150" height="100">
+	<p></p>
+</div>
+
+2. To achieve the superscript effect, we need to use <sup></sup>
+
+3. I fail to center the picture
+Solution: The align attribute in the img tag does not define the position of the image, but the position of the image and surrounding text. We need to define a parent tag for it.

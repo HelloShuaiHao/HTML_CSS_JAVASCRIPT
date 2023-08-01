@@ -1,0 +1,99 @@
+<!--Q:
+下面的<td> 和上面宽度一样,因为最小宽度是根据这列最大宽度来计算的，所以一开始需要构建最小的单元格，再多合并几次。
+The <td> below has the same width as above, because the minimum width is calculated based on the maximum width of this column, so you need to build the smallest cell at the beginning, and then merge it horizontally and vertivally.
+
+Process:
+1. From top to down, from left to right.
+2. Determine the smallest width of cell in each column.
+3. Build framework.
+-->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Table Practice</title>
+	</head>
+	
+	<body>
+		<h1 align="left">Time Table</h1>
+		
+		<table border="1" cellspacing="0" width="100%" cellpadding="3" style="font-size: x-large;">
+			<thead align="left" style="background-color: rgb(211, 211, 211);">
+				<tr height="30">
+					<th>Period</th> <th>Course</th> <th>Teacher</th> <th>Room</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr height="30">
+					<td>1</td> <td>Math</td> <td>Andrew</td> <td>26</td>
+				</tr>
+				<tr height="30">
+					<td>2</td> <td>English</td> <td>Varni</td> <td>48</td>
+				</tr>
+				<tr height="30">
+					<td>3</td> <td>PE</td> <td>Wong</td> <td>Gym</td>
+				</tr>
+				<tr height="30">
+					<td>4</td> <td>Science</td> <td>Schaefer</td> <td>40</td>
+				</tr>
+				<tr height="30">
+					<td>5</td> <td>History</td> <td>Rand</td> <td>31</td>
+				</tr>
+				<tr height="30">
+					<td>6</td> <td>Computers</td> <td>Rubin</td> <td>46</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		
+		
+		
+		
+		
+		
+		
+		<br><br><br><br><br>
+		<h1 align="left">Table 2</h1>
+		<h1 align="center" style="color: rgb(153, 153, 255);">Energy expenditures for Each Region
+			<br>
+			<br>
+			(Millions of dollors)
+		</h1>
+		<table border="1" cellspacing="0" width="100%" cellpadding="4" style="font-size: x-large ;">
+			<tbody>
+				<tr height="60px" style="color: blue; background-color: rgb(0, 255, 255)">
+					<td width="40%" colspan="2" rowspan="4"></td>  <td colspan="2" align="center"><b>Type</b></td>
+				</tr>
+				<tr height="60px" align="center" style="color: blue; background-color: rgb(0, 255, 255)" >
+					<td width="30%" ><b>Residental Customers</b></td><td><b>Business Customers</b></td>
+				</tr>
+				<tr height="60px" align="center" style="color: blue; background-color: rgb(0, 255, 255) ">
+					<td><b>Expenditures</b></td> <td><b>Expenditures</b></td>
+				</tr>
+				<tr height="60px" align="center" style="color: blue; background-color: rgb(0, 255, 255)">
+					<td><b>Sum</b></td> <td><b>Sum</b></td>
+				</tr>
+				<tr height="60px" align="center" style="color: blue;">
+					<td style="background-color: rgb(0, 255, 255)"><b>Region</b></td> <td style="background-color: rgb(0, 255, 255)"><b>Divison</b></td> <td></td><td></td>
+				</tr>
+				<tr height="60px" align="center" >
+					<td rowspan="2" style="color: blue; background-color: rgb(0, 255, 255)"><b>East</b></td> <td style="color: blue; background-color: rgb(0, 255, 255)"><b>Changi</b></td> <td align="right">$7,477</td> <td align="right">$5,129</td>
+				</tr>
+				<tr height="60px" align="center">
+					<td style="color: blue; background-color: rgb(0, 255, 255)"><b>Tampines</b></td> <td align="right">$19,379</td> <td align="right">$15,078</td>
+				</tr>
+				<tr height="60px" align="center">
+					<td rowspan="2" style="color: blue; background-color: rgb(0, 255, 255)"><b>West</b></td> <td style="color: blue; background-color: rgb(0, 255, 255)"><b>Jurong</b></td> <td align="right">$5,478</td> <td align="right">$4,729</td>
+				</tr>
+				<tr height="60px" align="center">
+					<td style="color: blue; background-color: rgb(0, 255, 255)"><b>Clementi</b></td> <td align="right">$13,959</td> <td align="right">$12,619</td>
+				</tr>
+			</tbody>
+		</table>		
+		
+		<br><br><br>
+	</body>
+</html>

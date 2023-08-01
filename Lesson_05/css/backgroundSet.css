@@ -1,0 +1,63 @@
+* {
+	margin: auto;
+	padding: 0;
+}
+
+body{
+	background-size: auto;
+	width: 1200px;
+	display: flex;
+	font-family: monospace;
+	align-items: ;
+}
+
+nav {
+	text-align: center;
+	
+	font-weight: bold;
+	font-size: x-large;
+}
+nav a {
+	text-decoration: blink;
+	line-height: 60px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: #020C16;
+	font-weight: ;
+}
+
+#destination {
+	font-size: 0px;
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+#destination img {
+}
+
+
+intput
+	textarea{
+		padding: 5px;
+		outline: none;
+	}
+	label{
+		line-height: 1.9rem;
+	}
+	input[type="submit"]{
+		transform: translate(2.2%);
+		padding: 3px;
+		margin-top: 0.6rem;
+		font-family: monospace;
+		font-weight: bold;
+	}
+	fieldset{
+		padding: 10px 20px;
+	}
+
+#main_form{
+	font-size: x-large;
+	text-align: center;
+}

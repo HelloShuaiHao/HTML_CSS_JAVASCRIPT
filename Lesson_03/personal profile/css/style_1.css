@@ -1,0 +1,79 @@
+body {
+	font-family: fantasy;
+	font-size: x-large;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#Container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#banner {
+	width: 1000px;
+	font-size: 0px;
+}
+
+#banner img {
+	width: 1000px;
+}
+
+
+
+nav a{
+	text-decoration: blink;
+	line-height: 60px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: #020C16;
+	font-weight: bold;
+}
+
+.currentPage {
+	color: #1a9be6;
+}
+
+#main {
+	height = 1500px;
+	width: 1000px;
+	margin: 0 auto;
+}
+#main_welcome {
+	width: 1000px;
+	display: inline-block;
+	float: inherit;
+}
+#IDphoto{
+	
+}
+
+#Travel{
+	font-size: 0px;
+}
+
+h2 {
+	box-sizing: border-box;
+	padding-left: 10px;
+	font-size: 20px;
+	line-height: 30px;
+	background-color: #99FF99;
+	color: #996699;
+	text-align: center;
+}
+#picture {
+	font-size: 0px;
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+#picture img {
+	width: 180px; 
+	height: 200px;
+}

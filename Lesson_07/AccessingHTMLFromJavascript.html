@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--If we add a <form> outside the <p></p> the form will flash and disaper-->
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Accessing HTML fields from Javascript</title>
+		<script>
+			function myNewProgram() {
+				var n = document.getElementById("inputTextBox").value;
+				document.getElementById("outputTextBox").value = n*n;
+			}
+		</script>
+	</head>
+	<body>
+		
+		<p>Enter a value:<input tyep="text" id="inputTextBox"></p>
+		<p>The square of the value is:<input type="text" id="outputTextBox"></p>
+		<p><input type="submit" value="Click to compute" onclick="myNewProgram()"></p>
+		
+	</body>
+</html>

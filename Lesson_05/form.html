@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h1>Form</h1>
+		<form style="color: black; d" >
+			First name: <input type="text" name="firstname"> <br/>
+			Surname:<input type="text" name="surname"> <br/>
+			FileSelector:<input type="file" name="browse"><br>
+			PWD:<input type="password" name="pwd"> <br>	
+			<input type="submit" value="Submit now">
+			<br>
+			<input type="checkbox" >
+			<br>
+			<input type="color">
+			<br>
+			<input type="date">
+			<br>
+			<input type="email" value="@u.nus.edu">
+			<br>
+			<input type="datetime-local">
+			<br>
+			<input type="file">
+			<br>
+			<input type="number">
+			<br>
+			<input type="range" min="0" max="10"> <br>
+			<input type="search" value="search"> <br>
+			
+			<input type="tel" value="phone number"> <br>
+		</form>
+		<p>Using checkboxes is a good option when you want to give your visitors an option</p>
+		<form>
+			Do you like:<br>
+			<input type="checkbox" name="drinkOption" value="Coffee">Coffee<br>
+			<input type="checkbox" name="drinkOption" value="Cola">Cola<br>
+		</form>
+		
+		<p>A radio button forces you to select one. Without a name, the element won't be identifiable when posting the form back to a server for processing.</p>
+		<form>
+			Your residence status:<br>
+			<input type="radio" name="statusRB" value="Citizen">Citizen<br>
+			<input type="radio" name="statusRB" value="PR">PR<br>
+			<input type="radio" name="statusRB" value="Foreigner">Foreigner<br>
+		</form>
+		
+	<h1>Dropdown Lists</h1>
+	<form method="post">
+		<select name="Icecream Flavours">
+			<option value="double chocolate">Double Chocolate</option>
+			<option value="strawberry" selected="selected">Strawberry</option>
+		</select>
+	</form>
+	</body>
+	
+	<h1>Submitting the Data</h1>
+	<form action="mailto:e1221805@u.nus.edu" method="post">
+		First name:<input type="text" name=firstname><br>
+		Surname:<input type="text" name="surname"><br>
+		<input type="submit" value="Submit now">
+	</form>
+</html>
