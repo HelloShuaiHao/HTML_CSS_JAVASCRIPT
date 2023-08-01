@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.navbar{
+	/*
+	项目对齐方式为row
+	*/
+	display: flex;
+	flex-direction: row;
+	
+	/*
+	justify-content：项目在主轴上的对齐方式；space-between：两端对齐，项目之间的间隔都相等
+	*/
+	justify-content: space-between;
+	
+	background-color: #fdf0d5;
+	padding: 25px 60px;  /* top-down & left-right	*/
+
+	margin-bottom:  30px;
+	
+}
+
+.cart{
+	/* 把相对坐标点定成了cart*/ 
+	position: relative;
+	
+	background-color: #14213d;
+	color: white;
+	
+	font-size: 30px;
+	padding: 0px;
+	
+	border-radius: 4px;
+}
+
+.cartNumber {
+	
+	/* 绝对定位 相对页面来说固定好的*/
+	position:absolute;
+	top:-15px;
+	right:-10px;
+	padding: 3px;
+	
+	font-size: 20px;
+	
+	background-color: red;
+	color: white;
+	
+}
+
+/*
+Shop items styles are here*/
+
+.shop {
+	display: grid;
+	grid-template-columns: repeat(4, 200px);
+	gap:30px;
+	justify-content: center;
+}
+@media (max-width: 1000px){
+	.shop {
+		grid-template-columns: repeat(2,220px);
+	}
+} 
+@media (max-width: 500px){
+	.shop {
+		grid-template-columns: repeat(1,220px);
+	}
+} 
+.item{
+	border: 2px solid #212529;
+	border-radius: 4px;
+}
+
+.details{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	gap:10px;
+}
+
+.price-quantity{
+	display: flex;
+	flex-direction: row;
+	
+	align-items:baseline; /*对齐 It works in the y asxi*/
+	justify-content: space-between;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+	font-size: 26px;;
+}
+
+.bi-plus-circle-fill{
+	color: red;
+}
+.bi-dash-circle-fill{
+	color: green;
+}
